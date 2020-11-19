@@ -1,6 +1,8 @@
 header {
   background-color: #fafcc2;
   border: solid hotpink 2px;
+  width: 70%;
+  margin: auto;
 }
 
 body {
@@ -14,8 +16,9 @@ footer {
 }
 
 h1 {
+  width: 50%;
+  margin: auto;
   text-align: center;
-  display: block;
   font-family: 'Cinzel', serif;
   font-size: 3.5em;
   color: hotpink;
@@ -57,4 +60,31 @@ p {
   margin: 10px auto;
 }
 
-/* Change the font-family of your list */
+@media (max-width: 1028px) {
+  #head {
+    font-size: 0.55em;
+  }
+
+  header {
+    width: 80%;
+  }
+
+  h2 {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  p {
+    font-size: 0.5em;
+  }
+
+  footer {
+    font-size: 1.5em;
+  }
+
+  .list {
+    width: 80%;
+    margin: auto;
+  }
+}
